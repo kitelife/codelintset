@@ -1,0 +1,6 @@
+.idea/
+pkg/
+*.iml
+*.exe
+*.pyc
+logInfo.json

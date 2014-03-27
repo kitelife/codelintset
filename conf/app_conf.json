@@ -1,0 +1,12 @@
+{
+    "BasePath": "/data/cron_scripts/code_static_analysis/",
+    "TargetReposName": [
+        "sh_ecc_com"
+    ],
+    "AnalysisResultReposName": "csa_result",
+    "AnalysisResultReposUrl": "http://10.24.178.60:8000/yongfengxia/csa_result/tree/master",
+    "MailSender": "sendert@email.com",
+    "MailScript": "/data/cron_scripts/code_static_analysis/codelintset/send_mail.py",
+    "DBDriverName": "mysql",
+    "DBDataSourceName": "root:shecccom@tcp(127.0.0.1:3306)/gitlabhq_production?charset=utf8"
+}

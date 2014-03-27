@@ -1,0 +1,20 @@
+{{define "lintresult"}}
+
+## 源码
+
+```text
+{{.Code}}
+```	
+
+## 静态分析结果
+
+```text
+{{.Result}}
+```
+
+## 相关人员
+
+{{range .Stakeholders}}
+- {{.}}
+{{end}}
+{{end}}
